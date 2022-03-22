@@ -1,0 +1,3 @@
+C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/GrandPlanAPI.dir
+C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

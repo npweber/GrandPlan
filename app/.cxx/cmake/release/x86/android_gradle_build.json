@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/release/x86",
+    "1": "--target=i686-none-linux-android29 --gcc-toolchain=C:/Users/NathanApes/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/NathanApes/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DGrandPlanAPI_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\NathanApes\\GrandPlan\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\release\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "GrandPlanAPI-Release-x86": {
+      "buildCommand": "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\release\\x86\" GrandPlanAPI",
+      "buildType": "release",
+      "toolchain": "495576832",
+      "abi": "x86",
+      "artifactName": "GrandPlanAPI",
+      "files": [
+        {
+          "src": "C:\\Users\\NathanApes\\GrandPlan\\app\\src\\main\\cpp\\GrandPlanAPI.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\NathanApes\\GrandPlan\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libGrandPlanAPI.so"
+    }
+  },
+  "toolchains": {
+    "495576832": {
+      "cppCompilerExecutable": "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="78dp">
+
+        <TextView
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:id="@+id/dateIdentifier"
+                android:textSize="14pt"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/back"
+                android:id="@+id/backButton"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <GridLayout
+                android:id="@+id/dayPreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </GridLayout>
+
+    </ScrollView>
+</LinearLayout>

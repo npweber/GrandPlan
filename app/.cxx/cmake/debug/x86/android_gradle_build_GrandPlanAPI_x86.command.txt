@@ -1,0 +1,7 @@
+Executable : C:\Users\NathanApes\AndroidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\NathanApes\GrandPlan\app\.cxx\cmake\debug\x86
+GrandPlanAPI
+jvmArgs : 
+

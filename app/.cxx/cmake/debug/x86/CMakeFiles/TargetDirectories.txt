@@ -1,0 +1,3 @@
+C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/debug/x86/CMakeFiles/GrandPlanAPI.dir
+C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

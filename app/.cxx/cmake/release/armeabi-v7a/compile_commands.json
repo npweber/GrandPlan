@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi29 --gcc-toolchain=C:/Users/NathanApes/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/NathanApes/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DGrandPlanAPI_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles\\GrandPlanAPI.dir\\app\\src\\main\\cpp\\GrandPlanAPI.cpp.o -c C:\\Users\\NathanApes\\GrandPlan\\app\\src\\main\\cpp\\GrandPlanAPI.cpp",
+  "file": "C:/Users/NathanApes/GrandPlan/app/src/main/cpp/GrandPlanAPI.cpp"
+}
+]

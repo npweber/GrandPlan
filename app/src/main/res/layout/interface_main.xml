@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.MainInterface"
+        android:id="@+id/interfaceMain"
+        android:padding="10dp">
+
+    <LinearLayout
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:id="@+id/topBar">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:id="@+id/weekSelect">
+
+            <GridLayout
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+                    android:rowCount="2"
+                    android:columnCount="2"
+                    android:id="@+id/primaryWeeks">
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="95dp">
+
+            <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/yearSelect"
+                    android:layout_weight="1"/>
+
+            <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/monthSelect"
+                    android:layout_weight="1"
+                    />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/middleBar">
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="310dp"
+                android:id="@+id/weekIdentifier"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+        <Button
+                android:text="@string/today"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/todayButton"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/weekDisplay"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:id="@+id/daysDisplay"
+                android:orientation="vertical"
+                android:layout_width="60dp"
+                android:layout_height="match_parent">
+        </LinearLayout>
+
+        <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@android:style/Widget.Material.Light.ScrollView">
+
+            <GridLayout
+                    android:id="@+id/weekPreview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+            </GridLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

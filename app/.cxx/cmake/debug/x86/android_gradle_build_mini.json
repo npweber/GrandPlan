@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\NathanApes\\GrandPlan\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "GrandPlanAPI-Debug-x86": {
+      "artifactName": "GrandPlanAPI",
+      "buildCommand": "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\debug\\x86\" GrandPlanAPI",
+      "abi": "x86",
+      "output": "C:\\Users\\NathanApes\\GrandPlan\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libGrandPlanAPI.so"
+    }
+  }
+}

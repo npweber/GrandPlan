@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "C:/Users/NathanApes/GrandPlan/app/.cxx/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi29 --gcc-toolchain=C:/Users/NathanApes/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/NathanApes/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DGrandPlanAPI_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -Oz -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\NathanApes\\GrandPlan\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "GrandPlanAPI-Release-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\NathanApes\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\NathanApes\\GrandPlan\\app\\.cxx\\cmake\\release\\armeabi-v7a\" GrandPlanAPI",
+      "buildType": "release",
+      "toolchain": "495576832",
+      "abi": "armeabi-v7a",
+      "artifactName": "GrandPlanAPI",
+      "files": [
+        {
+          "src": "C:\\Users\\NathanApes\\GrandPlan\\app\\src\\main\\cpp\\GrandPlanAPI.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\NathanApes\\GrandPlan\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libGrandPlanAPI.so"
+    }
+  },
+  "toolchains": {
+    "495576832": {
+      "cppCompilerExecutable": "C:\\Users\\NathanApes\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
