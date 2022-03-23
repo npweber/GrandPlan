@@ -25,6 +25,7 @@ GrandPlan is written in the Android SDK and consists of a front and backend impl
 
  ## **Author**
 Nathan Weber
+
 **GitHub** [@npweber](https://github.com/npweber/)
 
 ***Many thanks!***
